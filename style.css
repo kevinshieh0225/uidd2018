@@ -10,7 +10,7 @@ body{
   background-repeat:no-repeat;
   background-size:450;*/
 }
-image {
+#image {
     width: 16%;
     border: 2px gray groove;
     margin-left: 25% ;
