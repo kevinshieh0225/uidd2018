@@ -1,19 +1,40 @@
-html{
-  height:100%;
+body div{
+  text-align:center;
 } 
-body{
-  height:100%;
-  width:100%;
+#cool{
+  height:565px;
+  width:1150px;
   color:#F5F5F5;
- /* background-image:url("https://i.imgur.com/tVc9CNb.jpg");
+  position: fixed;
+  margin:0px auto;
+  border: 1px gray solid ;
+  background-image:url('https://i.imgur.com/6CVrF8Q.jpg');
   background-position:25% center;
   background-repeat:no-repeat;
-  background-size:450;*/
+  background-size:cover;
 }
 #image {
-    width: 16%;
-    border: 2px gray groove;
-    margin-left: 25% ;
-    background-image:url("https://i.imgur.com/tVc9CNb.jpg");
-    background-size:cover;
+    position: absolute;
+    width: 200px;
+    height: 563px;
+    left:230px ;
+    background: url("https://i.imgur.com/AaedlQ3.jpg") center center / cover;
+    background-repeat: no-repeat;
+    border: 1px gray solid;
+  }
+#black{
+  position:absolute;
+  width:140px;
+  height:35px;
+  z-index:2;
+  background-color:#2F4F4F;
+  right:0px;
+  top:0px;
+}
+.mark{
+  position:absolute;
+  z-index:1;
+  width:50px;
+  height:50px;
+  background-size: cover;
 }
