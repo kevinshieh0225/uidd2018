@@ -4,12 +4,12 @@ body{
   margin:0px;
 } 
 #cool{
-  height:565px;
-  width:1150px;
+  height:100%;
+  width:100%;
   color:#003131;
   position: fixed;
-  left:39.4px;
-  top:11.26;
+  left:0px;
+  top:0px;
   margin:0px auto;
   border: 1px gray solid ;
   background-image:url('https://i.imgur.com/duFyHkq.jpg');
@@ -20,7 +20,7 @@ body{
 #image {
     position: absolute;
     width: 200px;
-    height: 563px;
+    height: 100%;
     left:230px ;
     background: url("https://i.imgur.com/AaedlQ3.jpg") center center / cover;
     background-repeat: no-repeat;
@@ -59,6 +59,7 @@ w{
   font-family:Microsoft JhengHei;
   position:absolute;
   color:black;
+  transition:font-size 2s;
 }
 tag{
   left:30px;
@@ -69,4 +70,10 @@ tag{
   -o-transform:rotate(-90deg);
   -ms-transform:rotate(-90deg);
   transform:rotate(-90deg);
+  opacity:1;
+  transition: opacity 2s;
+}
+tag:hover{
+  font-size:0.31cm;
+  opacity:0.5;
 }
