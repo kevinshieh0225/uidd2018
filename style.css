@@ -1,0 +1,79 @@
+body{
+  text-align:center;
+  background-color:#001414;
+  margin:0px;
+} 
+#cool{
+  height:100%;
+  width:100%;
+  color:#003131;
+  position: fixed;
+  left:0px;
+  top:0px;
+  margin:0px auto;
+  border: 1px gray solid ;
+  background-image:url('https://i.imgur.com/duFyHkq.jpg');
+  background-position:25% center;
+  background-repeat:repeat;
+  background-size:50%;
+}
+#image {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    left:230px ;
+    background: url("https://i.imgur.com/AaedlQ3.jpg") center center / cover;
+    background-repeat: no-repeat;
+    border: 1px gray solid;
+  }
+#black{
+  position:absolute;
+  width:170px;
+  height:40px;
+  z-index:2;
+  background-color:#003131;
+  border: 1px gray solid;
+  right:-1px;
+  top:-1px;
+}
+.mark{
+  position:absolute;
+  z-index:1;
+  width:22px;
+  height:22px;
+}
+f.mark{
+  left:40px;
+  top:9px;
+}
+i.mark{
+  right:40px;
+  top:9px;
+}
+w{
+  left:555px;
+}
+.word{
+  font-size:0.3cm;
+  font-weight:700;
+  font-family:Microsoft JhengHei;
+  position:absolute;
+  color:black;
+  transition:font-size 2s;
+}
+tag{
+  left:30px;
+}
+.rotate{
+  -moz-transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+  -o-transform:rotate(-90deg);
+  -ms-transform:rotate(-90deg);
+  transform:rotate(-90deg);
+  opacity:1;
+  transition: opacity 2s;
+}
+tag:hover{
+  font-size:0.31cm;
+  opacity:0.5;
+}
